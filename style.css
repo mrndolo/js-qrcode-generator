@@ -60,3 +60,27 @@ body{
     margin: 10px auto;
     border: 1px solid #d1d1d1;
 }
+.p-error{
+    color: #ff0000;
+}
+.error{
+    /* border: 1px solid #ff0000; */
+    animation: shake 0.1s linear 10;
+}
+@keyframes shake{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
